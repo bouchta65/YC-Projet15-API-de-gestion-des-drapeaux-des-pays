@@ -4,9 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class pays extends Model
+class Pays extends Model
 {
     protected $fillable = [
-        'name', 'capital', 'population', 'region', 'flag_url', 'currency', 'language'
+        'nom', 'capitale', 'population', 'region', 'url_drapeau', 'devise', 'langue'
     ];
 }
