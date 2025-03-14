@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 use App\Models\Pays;
 use Illuminate\Support\Facades\Storage;
-use GuzzleHttp\Promise\Create;
 
 class PaysController extends Controller
 {
